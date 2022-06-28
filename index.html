@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
@@ -13,24 +13,28 @@
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./lib/owlcarousel/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="./lib/owlcarousel/assets/owl.theme.default.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="icon" href="./assets/icons/izzicheck Morado.svg">
+  <link rel="icon" href="./assets/icons/izzicheck Morado.svg">
   <title>IzziCheck</title>
 </head>
 
 <body class="">
+  <!-- contenedor oculto de google translate -->
+  <div id="google_translate_element" style="display:none"></div>
+
   <header class="">
-    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-navbar py-1">
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-navbar py-1 text-capitalize">
       <div class="navToggle">
         <a class="navbar-brand" href="./index.html">
-          <img class="logoIcon"  src="./assets/icons/izzicheck Morado.svg" alt="logo" />
+          <img class="logoIcon" src="./assets/icons/izzicheck Morado.svg" alt="logo" />
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
-          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
@@ -43,8 +47,8 @@
             <a class="text-white nav-link disabled" href="#ventajas">Ventajas</a>
           </li>
           <div class="dropdown">
-            <button class="btn btn-transparent dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
+            <button class="btn btn-transparent dropdown-toggle text-capitalize" type="button" id="dropdownMenu1"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Planes
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -59,7 +63,7 @@
             <a class="text-white nav-link disabled" href="#funciona">Cómo funciona</a>
           </li>
           <li class="nav-item">
-            <a class="text-white nav-link disabled" href="#servimos">A quiénes servimos</a>
+            <a class="text-white nav-link disabled " href="#servimos">A quiénes servimos</a>
           </li>
           <li class="nav-item">
             <a class="text-white nav-link disabled" href="#faq">Preguntas frecuentes</a>
@@ -71,6 +75,11 @@
             <a class="text-white btn font-weight-bold btn-outline-light ml-2 mb-1 btn-sm nav-link text-white"
               href="./contact.html">Obtener Ahora</a>
           </li>
+          <li class="nav-item p-2">
+            <a href="#" class="flag_link eng" data-lang="en"><span class="flag-icon flag-icon-us"></span></a>
+            <a href="#" class="flag_link es" data-lang="es"><span class="flag-icon flag-icon-es"></span></a>
+          </li>
+
         </ul>
       </div>
       </div>
@@ -105,12 +114,14 @@
                     <span class="text-primary">Chequea </span>
                     <span class="text-light">fácil y rápido</span>
                   </h1>
-                  <p class="text-white w-75 ml-5">Soluciones tecnológicas - financieras enfocadas a la innovacion y eficiencia,
+                  <p class="text-white w-75 ml-5">Soluciones tecnológicas - financieras enfocadas a la innovacion y
+                    eficiencia,
                     generando recursos adaptados a tus necesidades con el fin de automizar los procesos y maximizar tu
                     productividad.</p>
                 </div>
 
-              <a class="carousel-control-prev control-prev-margin" href="#header-carousel" role="button" data-slide="prev">
+                <a class="carousel-control-prev control-prev-margin" href="#header-carousel" role="button"
+                  data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
@@ -127,7 +138,8 @@
                 </div>
                 <div class="ml-5 ">
                   <a href="./contact.html" class="btn btn-primary mb-2">Iniciar la prueba gratuita</a>
-                  <a href="./contact.html" class="btn bg-transparent text-white font-weight-bold   mb-2 border-green ">Conocer
+                  <a href="./contact.html"
+                    class="btn bg-transparent text-white font-weight-bold   mb-2 border-green ">Conocer
                     más sobre Premium</a>
                 </div>
 
@@ -138,14 +150,14 @@
   </header>
 
   <main>
-    <section id="nosotros" class="container">
+    <section id="nosotros" class="container">z
       <div class="row tramslate-y-40">
         <div class="col-md-6">
           <img src="./assets/recursos/Laptop Desktop.png" alt="" class="w-100" />
         </div>
         <div class="col-md-6 d-flex align-items-center py-md-5 p-3 mt-4">
           <div class="">
-            <h2 class="text-primary">Lo hace por ti</h2>
+            <h2 class="text-primary text-cap">Lo hace por ti</h2>
 
             <p class="text-purple2">
               Nuestra aplicación Izzycheck está desarrollada para proporcionar de manera fácil, rápida y cómoda la
@@ -156,7 +168,8 @@
 
             <div class="">
               <a href="./contact.html" class="btn btn-primary mb-2">Iniciar la prueba gratuita</a>
-              <a href="./contact.html" class="btn btn-outline-primary font-weight-bold mb-2">Conocer más sobre Premium</a>
+              <a href="./contact.html" class="btn btn-outline-primary font-weight-bold mb-2">Conocer más sobre
+                Premium</a>
             </div>
           </div>
         </div>
@@ -182,12 +195,12 @@
             </div>
             <div>
               <div class="text-center text-muted">
-              <h5 class="text-purple">Validación inmediata</h5>
-              <p class="text-purple2">
-                Valida las transferencias Zelle de manera inmediata y segura.
-              </p>
-            </div>
-            <a href="./contact.html" class="ventajas text-primary font-weight-bold">Saber más</a> 
+                <h5 class="text-purple">Validación inmediata</h5>
+                <p class="text-purple2">
+                  Valida las transferencias Zelle de manera inmediata y segura.
+                </p>
+              </div>
+              <a href="./contact.html" class="ventajas text-primary font-weight-bold">Saber más</a>
             </div>
           </div>
         </div>
@@ -204,10 +217,10 @@
                 <p class="text-purple2">
                   Genera reportes para que puedas visualizar las transferencias recibidas por Zelle.
                 </p>
+              </div>
+              <a href="./contact.html" class="ventajas text-primary font-weight-bold">Saber más</a>
             </div>
-            <a href="./contact.html" class="ventajas text-primary font-weight-bold">Saber más</a>
-            </div>
-            
+
           </div>
         </div>
         <div class="col-md-6 col-lg-3 mt-3">
@@ -245,8 +258,7 @@
       </div>
     </section>
 
-    <section id="funciona" class="bg-fit pt-5"
-      style=" background-image: url(./assets/banners/banner\ ultimo\ cuadrado.png);
+    <section id="funciona" class="bg-fit pt-5" style=" background-image: url(./assets/banners/banner\ ultimo\ cuadrado.png);
       background-position: center top;
       border-bottom-right-radius: 30%;
       border-bottom-left-radius: 30%;">
@@ -279,12 +291,12 @@
                       <small class="text-purple2">Regístrate llenando el formulario</small>
                     </div>
                   </div>
-                  <div class="d-flex align-items-center text-muted mb-1">
+                  <div class="d-flex align-items-center text-muted mb-1 ">
                     <div class="p-3 border border-secondary cuadrado-30 rounded-circle center-abs">
-                      <span class="font-weight-bold">2</span>
+                      <span class="font-weight-bold " translate="no">2</span>
                     </div>
                     <div class="p-3">
-                      <small class="text-purple2">Elige el plan a tu medida</small>
+                      <small class="text-purple2">Regístrate llenando el formulario</small>
                     </div>
                   </div>
                   <div class="d-flex align-items-center text-muted">
@@ -312,7 +324,7 @@
       <div class="container">
         <div class="text-center text-light">
           <div class="mb-2">
-            <small class="">Planes mensuales</small>
+            <small class="text-capitalize">Planes mensuales</small>
           </div>
 
           <h3 class="mb-4">Elige tu plan ideal</h3>
@@ -357,7 +369,8 @@
                   <!-- </div> -->
                 </div>
                 <div class="">
-                  <a class="btn btn-outline-dark text-purple tn-lg btn-rounded btn-block" type="button" href="./contact.html">
+                  <a class="btn btn-outline-dark text-purple tn-lg btn-rounded btn-block" type="button"
+                    href="./contact.html">
                     <b>Prueba Gratis</b>
                   </a>
                 </div>
@@ -379,7 +392,8 @@
                   <!-- </div> -->
                 </div>
                 <div class="">
-                  <a class="btn btn-outline-dark text-purple tn-lg btn-rounded btn-block" type="button" href="./contact.html">
+                  <a class="btn btn-outline-dark text-purple tn-lg btn-rounded btn-block" type="button"
+                    href="./contact.html">
                     <b>Lo necesito</b>
                   </a>
                 </div>
@@ -400,7 +414,8 @@
                   <!-- </div> -->
                 </div>
                 <div class="">
-                  <a class="btn btn-outline-dark text-purple tn-lg btn-rounded btn-block" type="button" href="./contact.html">
+                  <a class="btn btn-outline-dark text-purple tn-lg btn-rounded btn-block" type="button"
+                    href="./contact.html">
                     <b>Lo necesito</b>
                   </a>
                 </div>
@@ -421,7 +436,8 @@
                   <!-- </div> -->
                 </div>
                 <div class="">
-                  <a class="btn btn-outline-dark text-purple tn-lg btn-rounded btn-block" type="button"  href="./contact.html">
+                  <a class="btn btn-outline-dark text-purple tn-lg btn-rounded btn-block" type="button"
+                    href="./contact.html">
                     <b>Agendar cita</b>
                   </a>
                 </div>
@@ -452,14 +468,14 @@
               </div>
             </div>
             <div>
-            
-            </div>  
+
+            </div>
             <ul class="carousel-indicators carousel-indicators2">
-                <li data-target="#carousel-services" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-services" data-slide-to="1"></li>
-                <li data-target="#carousel-services" data-slide-to="2"></li>
-                <li data-target="#carousel-services" data-slide-to="3"></li>
-              </ul>
+              <li data-target="#carousel-services" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-services" data-slide-to="1"></li>
+              <li data-target="#carousel-services" data-slide-to="2"></li>
+              <li data-target="#carousel-services" data-slide-to="3"></li>
+            </ul>
           </div>
         </div>
         <div class="col-md-6 text-muted d-flex align-content-center">
@@ -468,7 +484,7 @@
               <h6 class="text-purple font-weight-light">A QUIENES SERVIMOS</h6>
             </div>
 
-            <h3 class="text-primary">Nuestra plataforma</h3>
+            <h3 class="text-primary text-capitalize">Nuestra plataforma</h3>
 
             <h5 class="mb-4 text-darkpurple font-weight-light">
               está orientada a satisfacer las necesidades para todo tipo de clientes
@@ -545,7 +561,7 @@
             </div>
           </div>
         </div>
-        
+
       </div>
     </section>
 
@@ -654,14 +670,15 @@
               </div>
               <div class="text-muted">
                 <p>
-                  Gracias a Izzicheck hemos captado más clientes, ya no sentimos desconfianza porque podemos validar los pagos de manera rápida y sencilla.
+                  Gracias a Izzicheck hemos captado más clientes, ya no sentimos desconfianza porque podemos validar los
+                  pagos de manera rápida y sencilla.
                 </p>
 
-                <p class="mb-2 text-purple font-weight-bold">
+                <p class="mb-2 text-purple font-weight-bold text-capitalize">
                   Lucia Puerto
                 </p>
 
-                <small class="text-purple">Product Manager</small>
+                <small class="text-purple text-capitalize">Product Manager</small>
               </div>
             </div>
           </div>
@@ -684,7 +701,8 @@
             <div class="card">
               <div class="card-body ">
                 <div class="">
-                  <img style="height: 240px" class="img-cover rounded w-100" src="./assets/banners/Manos Desktop.png" alt="" />
+                  <img style="height: 240px" class="img-cover rounded w-100" src="./assets/banners/Manos Desktop.png"
+                    alt="" />
                 </div>
                 <div class="pt-3 text-center text-purple">
                   <h5 class="">¿Qué es Izzicheck?</h5>
@@ -701,8 +719,8 @@
             <div class="card">
               <div class="card-body">
                 <div class="">
-                  <img style="height: 240px" class="rounded img-cover w-100" src="./assets/banners/Es gratis desktop.png"
-                    alt="" />
+                  <img style="height: 240px" class="rounded img-cover w-100"
+                    src="./assets/banners/Es gratis desktop.png" alt="" />
                 </div>
                 <div class="pt-3 text-center text-purple">
                   <h5 class="">¿Usar Izzicheck es gratis?</h5>
@@ -717,8 +735,8 @@
             <div class="card">
               <div class="card-body">
                 <div class="">
-                  <img style="height: 240px" class="img-cover rounded w-100" src="./assets/banners/crece negocio desktop.png"
-                    alt="" />
+                  <img style="height: 240px" class="img-cover rounded w-100"
+                    src="./assets/banners/crece negocio desktop.png" alt="" />
                 </div>
                 <div class="pt-3 text-center text-purple">
                   <h5 class="">Si mis ventas incrementan, ¿Puedo cambiar de plan para uno que registre más validaciones?
@@ -739,14 +757,15 @@
       <div class="row py-5">
         <div class="col-12 col-lg-2 p-3 offset-lg-3">
           <div>
-            <img src="./assets/icons/izzicheck Morado.svg" alt="logo-Izzicheck" class="logoIcon"/>
+            <img src="./assets/icons/izzicheck Morado.svg" alt="logo-Izzicheck" class="logoIcon" />
           </div>
           <div class="mt-3">
             <div>
               <p class="text-muted">@izzicheck.cc</p>
             </div>
             <div>
-              <a href="https://www.instagram.com/izzicheck.cc/" ><img src="./assets/icons/Instagram Icon.svg" alt="Instagram" /></a>
+              <a href="https://www.instagram.com/izzicheck.cc/"><img src="./assets/icons/Instagram Icon.svg"
+                  alt="Instagram" /></a>
               <img src="./assets/icons/Facebook icon.svg" alt="Facebook" />
             </div>
           </div>
@@ -761,7 +780,7 @@
             <div><a class="text-purple a-link" href="./security.html">Sobre nuestra seguridad</a></div>
             <div><a class="text-purple a-link" href="./cookies.html">Política de cookies</a></div>
             <div><a class="text-purple a-link" href="./privacy.html">Política de privacidad</a></div>
-        </div>
+          </div>
         </div>
         <div class="col-12 col-lg-2 p-3 text-purple">
           <h5>Entradas al Menú</h5>
@@ -785,7 +804,9 @@
   <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
   <script src="./lib/Bootstrap-toggle/js/bootstrap4-toggle.min.js"></script>
   <script src="./lib/owlcarousel/owl.carousel.min.js"></script>
-
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+  </script>
+  <script src="./lib/google-translate.js"></script>
   <script>
     $('.owl-carousel').owlCarousel({
       loop: true,
@@ -793,9 +814,12 @@
       autoplayTimeout: 2000,
       autoplayHoverPause: true,
       margin: 10,
-      dots:false,
+      dots: false,
       nav: true,
-      navText: ["<a class='cuadrado-40 center-abs rounded-circle mr-2 btn-outline-purple  a-link' ><i class='fa-solid fa-arrow-left'></></i>", "<a class='cuadrado-40 center-abs rounded-circle mr-2 btn-outline-purple a-link' ><i class='fa-solid fa-arrow-right'></i> </a>"],
+      navText: [
+        "<a class='cuadrado-40 center-abs rounded-circle mr-2 btn-outline-purple  a-link' ><i class='fa-solid fa-arrow-left'></></i>",
+        "<a class='cuadrado-40 center-abs rounded-circle mr-2 btn-outline-purple a-link' ><i class='fa-solid fa-arrow-right'></i> </a>"
+      ],
       responsive: {
         0: {
           items: 1
@@ -806,18 +830,20 @@
       }
     })
 
-      $('.carouselServices').carousel({
-        interval: 2000
-      })
-      
-      $('#navbarSupportedContent').on('show.bs.collapse', function () {
-          $(".navbar").addClass("bg-navbar-active");
-        })
+    $('.carouselServices').carousel({
+      interval: 2000
+    })
 
-        $('#navbarSupportedContent').on('hide.bs.collapse', function () {
-          $(".navbar").removeClass("bg-navbar-active");
-        })
+    $('#navbarSupportedContent').on('show.bs.collapse', function () {
+      $(".navbar").addClass("bg-navbar-active");
+    })
+
+    $('#navbarSupportedContent').on('hide.bs.collapse', function () {
+      $(".navbar").removeClass("bg-navbar-active");
+    })
   </script>
+
 </body>
+
 
 </html>
