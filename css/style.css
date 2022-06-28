@@ -1,0 +1,280 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.header {
+  background-image: url(../assets/banners/banner\ principal.png);
+  background-position: top bottom !important;
+  min-height: 85vh;
+}
+
+.text-gray {
+  color: rgba(114, 123, 133, 0.2);
+}
+
+.control-prev-margin{
+  margin-left: -5%;
+}
+
+.shadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-top: -8%;
+}
+
+.headerContact {
+  background-image: url(../assets/banners/banner\ 2.png);
+  background-position: center bottom !important;
+  /* min-height: 95vh; */
+}
+.modal-content{
+  border:none;
+  background-image: url(../assets/banners/banner\ ultimo\ cuadrado.png);
+  background-repeat: no-repeat;
+}
+
+
+.modal-header{
+  border-bottom: none;
+  border-top: none;
+}
+
+.logoIcon{
+  height: 75px;
+  width: 75px;
+}
+
+.modal-body{
+  align-items: center;
+}
+.headerTerms {
+  background-image: url(../assets/banners/banner\ ultimo\ cuadrado.png);
+  border-bottom-right-radius: 30%;
+  background-position: center top !important;
+  border-bottom-left-radius: 30%;
+  /* min-height: 95vh; */
+}
+
+.bg-fit {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-primary {
+  color: #22e38f !important;
+}
+
+.btn-primary {
+  background-color: #22e38f !important;
+  border: 2px solid #22e38f !important;
+}
+
+.btn-outline-primary {
+  color: #22e38f !important;
+  border: 2px solid #22e38f !important;
+}
+
+.btn-outline-primary:hover {
+  color: #fff !important;
+  background-color: #22e38f !important;
+}
+
+.btn-custom-blur {
+  border: transparent 2px solid;
+  background: rgba(205, 205, 205, 0.241);
+}
+.border-green {
+  border: 1px solid #22e38f;
+}
+
+.border-light {
+  border: 1px solid #22e38f;
+}
+
+.bg-purple {
+  background: rgb(57, 0, 113);
+}
+
+.text-darkpurple {
+  color: rgb(57, 0, 113);
+}
+
+.btn-outline-purple {
+  color: rgb(57, 0, 113);
+  border: rgb(57, 0, 113) 2px solid;
+  cursor: pointer;
+}
+
+.text-purple {
+  color: rgb(127, 31, 212);
+}
+
+.a-link:hover {
+  text-decoration: none;
+  color: rgb(127, 31, 212);
+}
+
+.text-purple2 {
+  color: rgb(58, 14, 96);
+}
+.circle-item {
+  width: 30px;
+  height: 30px;
+}
+
+.cuadrado-30 {
+  width: 30px;
+  height: 30px;
+}
+
+.cuadrado-40 {
+  width: 40px;
+  height: 40px;
+}
+
+.bg-gray {
+  background-color: rgb(219, 219, 219);
+}
+
+.center-abs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-rounded {
+  border-radius: 30px;
+}
+
+.bg-transparent-gray {
+  background: rgba(175, 175, 175, 0.344);
+}
+
+.tramslate-y-40 {
+  transform: translateY(-40px);
+}
+
+.img-cover {
+  object-fit: cover;
+}
+
+.bg-navbar {
+  background: linear-gradient(to left, rgba(40, 220, 148, 0.5), rgba(104, 89, 192, 0.5));
+}
+
+.bg-navbar-active{
+    background: linear-gradient(to left, rgb(40, 220, 148), rgb(105, 89, 192));
+}
+
+.btn-transparent {
+  color: white;
+  background: transparent;
+}
+
+.fa-check {
+  color: #22e38f;
+}
+
+/* bootstrap toggle */
+.toggle.ios,
+.toggle-on.ios,
+.toggle-off.ios {
+  border-radius: 20rem;
+}
+.toggle.ios .toggle-handle {
+  border-radius: 20rem;
+}
+
+.owl-prev {
+  outline: none !important;
+}
+
+.owl-next {
+  outline: none !important;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent;
+  text-decoration: none;
+}
+
+.carousel-indicators1{
+  bottom:0;
+  position: relative;
+}
+
+.carousel-indicators2{
+  left: -4em;
+  bottom:0;
+  position: relative;
+}
+
+.carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: rgba(44, 9, 75, 0.747);;
+  opacity: 1;
+  border: 0;
+}
+.carousel-indicators li.active {
+  background-color: #22e38fb6;
+}
+
+.formContainer{
+  width: 50vw;
+}
+
+
+
+@media screen and (max-width: 900px) and (min-width: 200px) {
+  .formContainer{
+    width: 85vw;
+  }
+  .carousel-indicators2{
+    left: 0;
+    bottom:0;
+    position: relative;
+  }
+  .navbar-toggler{
+  margin-left: 45vw;
+  }  
+
+}
+
+@media screen and (max-width: 900px) and (min-width:540px){
+  .navbar-toggler{
+    margin-left: 65vw;
+  }
+
+}
+
+@media screen and (max-width: 1250px) and (min-width: 910px){
+  .formContainer{
+    width: 70vw;
+  }
+  .carousel-indicators2{
+    left: 0;
+    bottom:0;
+    position: relative;
+  }
+  .navbar-toggler{
+    margin-left: 75vw;
+  }
+}
+
+
+  @media screen and (min-width: 1500px){
+    .formContainer{
+      width: 70vw;
+    }
+  }
+
+.ventajas{
+  position:absolute;
+  top: 100%;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  margin-top: -12px;
+  }
